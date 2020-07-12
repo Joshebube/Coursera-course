@@ -1,0 +1,90 @@
+* {
+   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+   box-sizing: border-box;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.col-lg, .col-md, .col-sm{
+    border: 1px solid black;
+        float: left;
+        position: relative;
+}
+h1{
+    text-align: center;
+}
+#sec-tit1{
+    width:35%;
+    height:40px;
+    border: 1px solid black;
+    position: relative;
+    left: 65%;
+    background-color: #F7D9C4;
+}
+#sec-tit2{
+    width:35%;
+    height:40px;
+    border: 1px solid black;
+    position: relative;
+    left: 65%;
+    background-color: #D2D2CF;
+}
+#sec-tit3{
+    width:35%;
+    height:40px;
+    border: 1px solid black;
+    position: relative;
+    left: 65%;
+    background-color: #FAEDCB;
+}
+h3{
+    text-align: center;
+    margin-top: 3px;
+
+}
+#sec1{
+    background-color: #C9E4DE; 
+}
+#sec2{
+    background-color: #C6DEF1;
+}
+#sec3{
+    background-color: #DBCDF0;
+}
+
+p{
+    padding: 20px;
+}
+.container {
+            width: 100%;
+}
+
+@media (min-width: 992px){
+    .col-lg{
+        width: 30%;
+        margin-left: 2.5%
+        
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .col-md{
+        width: 45%;
+        margin-left:3%;
+    }
+    #sec3{
+        width: 93%;
+        margin-top:3%;
+
+    }
+}
+
+@media (max-width: 767px){
+    .col-sm{
+        width: 90%;
+        margin-bottom:5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
